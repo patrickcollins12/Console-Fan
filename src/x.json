@@ -1,0 +1,85 @@
+[{                                                                                   
+    "entry_id": "83956df7e03d75da7b9e73d2a08e01e9",                                 
+    "version": 1,                                                                   
+    "domain": "adaptive_lighting",                 
+    "title": "Less Brightness",                    
+    "data": {                                      
+        "name": "Adaptive Lighting"                
+    },                             
+    "options": {                   
+        "lights": [                
+            "light.dininglamp",        
+            "light.dining_light",                     
+            "light.lrlamp",      
+            "light.lrlight",     
+            "light.wardrobe_light",    
+            "light.kitchen_light", 
+            "light.bathroom",      
+            "light.garden_lamp_pole"                    
+        ],                          
+        "prefer_rgb_color": false,  
+        "initial_transition": 1.0,  
+        "sleep_transition": 1.0,                   
+        "transition": 45.0,         
+        "interval": 90,           
+        "min_brightness": 1,      
+        "max_brightness": 75,     
+        "min_color_temp": 2400,                            
+        "max_color_temp": 5500,                                     
+        "sleep_brightness": 1,   
+        "sleep_color_temp": 1000,
+        "sunrise_time": "None",  
+        "sunrise_offset": 0,           
+        "sunset_time": "None",    
+        "sunset_offset": 0,      
+        "only_once": false,                                                                                       
+        "take_over_control": true,
+        "detect_non_ha_changes": true,
+        "separate_turn_on_commands": false
+    },                                             
+    "pref_disable_new_entities": false,   
+    "pref_disable_polling": false,        
+    "source": "user",                     
+    "unique_id": "Adaptive Lighting",     
+    "disabled_by": null                
+},                                     
+{                                                  
+    "entry_id": "f98beed697baf8636018a5daf3703ee9",
+    "version": 1,                  
+    "domain": "adaptive_lighting", 
+    "title": "More brightness",    
+    "data": {                          
+        "name": "Less brightness"                     
+    },                           
+    "options": {                 
+        "lights": [                    
+            "light.laundry",       
+            "light.main_bathroom_light",
+            "light.downstairs_zbg"                      
+        ],                          
+        "prefer_rgb_color": false,  
+        "initial_transition": 1.0,  
+        "sleep_transition": 1.0,                   
+        "transition": 45.0,         
+        "interval": 90,           
+        "min_brightness": 100,    
+        "max_brightness": 100,    
+        "min_color_temp": 2400,                            
+        "max_color_temp": 5500,                                     
+        "sleep_brightness": 1,   
+        "sleep_color_temp": 1000,
+        "sunrise_time": "None",  
+        "sunrise_offset": 0,           
+        "sunset_time": "None",    
+        "sunset_offset": 0,      
+        "only_once": false,                                                                                       
+        "take_over_control": true,
+        "detect_non_ha_changes": true,
+        "separate_turn_on_commands": false
+    },                                             
+    "pref_disable_new_entities": false,   
+    "pref_disable_polling": false,        
+    "source": "user",                     
+    "unique_id": "Less brightness",       
+    "disabled_by": null                
+}]
