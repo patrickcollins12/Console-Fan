@@ -10,6 +10,8 @@
             "includePath": [
                 "/Users/patrick/software_projects/PlatformIO/Console Fan/include",
                 "/Users/patrick/software_projects/PlatformIO/Console Fan/src",
+                "/Users/patrick/software_projects/PlatformIO/Console Fan/.pio/libdeps/nodemcu-32s/DHT sensor library",
+                "/Users/patrick/software_projects/PlatformIO/Console Fan/.pio/libdeps/nodemcu-32s/Adafruit Unified Sensor",
                 "/Users/patrick/software_projects/PlatformIO/Console Fan/.pio/libdeps/nodemcu-32s/Neotimer/src",
                 "/Users/patrick/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config",
                 "/Users/patrick/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_trace",
@@ -74,8 +76,6 @@
                 "/Users/patrick/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fb_gfx",
                 "/Users/patrick/.platformio/packages/framework-arduinoespressif32/cores/esp32",
                 "/Users/patrick/.platformio/packages/framework-arduinoespressif32/variants/nodemcu-32s",
-                "/Users/patrick/software_projects/PlatformIO/Console Fan/.pio/libdeps/nodemcu-32s/Adafruit Unified Sensor",
-                "/Users/patrick/software_projects/PlatformIO/Console Fan/.pio/libdeps/nodemcu-32s/DHT sensor library",
                 "/Users/patrick/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src",
                 "/Users/patrick/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src",
                 "/Users/patrick/.platformio/packages/framework-arduinoespressif32/libraries/AzureIoT/src",
@@ -112,6 +112,8 @@
                 "path": [
                     "/Users/patrick/software_projects/PlatformIO/Console Fan/include",
                     "/Users/patrick/software_projects/PlatformIO/Console Fan/src",
+                    "/Users/patrick/software_projects/PlatformIO/Console Fan/.pio/libdeps/nodemcu-32s/DHT sensor library",
+                    "/Users/patrick/software_projects/PlatformIO/Console Fan/.pio/libdeps/nodemcu-32s/Adafruit Unified Sensor",
                     "/Users/patrick/software_projects/PlatformIO/Console Fan/.pio/libdeps/nodemcu-32s/Neotimer/src",
                     "/Users/patrick/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config",
                     "/Users/patrick/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_trace",
@@ -176,8 +178,6 @@
                     "/Users/patrick/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fb_gfx",
                     "/Users/patrick/.platformio/packages/framework-arduinoespressif32/cores/esp32",
                     "/Users/patrick/.platformio/packages/framework-arduinoespressif32/variants/nodemcu-32s",
-                    "/Users/patrick/software_projects/PlatformIO/Console Fan/.pio/libdeps/nodemcu-32s/Adafruit Unified Sensor",
-                    "/Users/patrick/software_projects/PlatformIO/Console Fan/.pio/libdeps/nodemcu-32s/DHT sensor library",
                     "/Users/patrick/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src",
                     "/Users/patrick/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src",
                     "/Users/patrick/.platformio/packages/framework-arduinoespressif32/libraries/AzureIoT/src",
@@ -211,7 +211,7 @@
                 ]
             },
             "defines": [
-                "PLATFORMIO=50204",
+                "PLATFORMIO=50205",
                 "ARDUINO_NodeMCU_32S",
                 "ESP32",
                 "ESP_PLATFORM",

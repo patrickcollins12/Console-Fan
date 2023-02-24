@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../Projects/garden_solenoid_esp32"
+		},
+		{
+			"name": "Console Fan",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
